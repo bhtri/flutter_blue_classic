@@ -1,0 +1,26 @@
+name: flutter_blue_classic
+description: A new flutter plugin for Bluetooth classic Android(Bluetooth)/IOS(ExternalAccessory) module for serial communication.
+version: 0.0.1
+homepage: https://github.com/bhtri/flutter_blue_classic
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+  flutter: ">=1.20.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  plugin:
+    platforms:
+      android:
+        package: com.bhtri.flutter_blue_classic
+        pluginClass: FlutterBlueClassicPlugin
+      ios:
+        pluginClass: FlutterBlueClassicPlugin
